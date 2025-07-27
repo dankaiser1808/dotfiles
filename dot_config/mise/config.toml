@@ -1,7 +1,5 @@
 [tools]
 
-colorize = "latest"
 fzf = "latest"
-fzf-tab = "latest"
 chezmoi = "latest"
 usage = "latest"   # for mise completion
