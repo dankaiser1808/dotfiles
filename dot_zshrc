@@ -6,12 +6,12 @@ export ZSH="$HOME/.oh-my-zsh"
 alias devpod=devpod-cli
 ZSH_THEME="robbyrussell"
 
-plugins=(git colorize fzf fzf-tab)
+plugins=(git colorize fzf fzf-tab zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 set -o vi
 
