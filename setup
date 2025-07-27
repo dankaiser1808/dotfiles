@@ -8,8 +8,7 @@ fi
 
 
 if ! command -v chezmoi >/dev/null; then
-    sh -c "$(curl -fsLs get.chezmoi.io)" -- -b /usr/local/bin
-    chezmoi init --apply https://github.com/dankaiser1808/dotfiles.git
+    sh -c "$(curl -fsLs get.chezmoi.io)" -- init --apply https://github.com/dankaiser1808/dotfiles.git
 fi
 
 if [ ! -d "$HOME/.zsh" ]; then
