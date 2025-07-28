@@ -6,7 +6,7 @@ export ZSH="$HOME/.oh-my-zsh"
 alias devpod=devpod-cli
 ZSH_THEME="robbyrussell"
 
-plugins=(git colorize zsh-autosuggestions zsh-syntax-highlighting kubectl)
+plugins=(git colorize zsh-autosuggestions zsh-syntax-highlighting kubectl docker)
 
 source $ZSH/oh-my-zsh.sh
 
