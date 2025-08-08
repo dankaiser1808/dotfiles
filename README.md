@@ -10,6 +10,12 @@ Run the setup script to bootstrap your environment:
 curl -fsSL https://raw.githubusercontent.com/dankaiser1808/dotfiles/main/setup.sh | bash
 ```
 
+If you are using devpod, you can simply run:
+
+```bash
+devpod up --dotfiles https://github.com/dankaiser1808/dotfiles.git .
+```
+
 ## What the Setup Script Does
 
 The setup script (`setup.sh`) automates the entire configuration process:
