@@ -28,14 +28,6 @@ The setup script (`setup.sh`) automates the entire configuration process:
    - `.chezmoiscripts` - Custom setup and configuration scripts
 5. **Install Zsh plugins** - Downloads and configures custom Zsh plugins for enhanced shell functionality
 
-## Features
-
-- **Cross-platform compatibility** - Works seamlessly on Arch Linux and in development containers
-- **Secure management** - Leverages chezmoi's security features for sensitive configurations
-- **Automated setup** - One-command installation and configuration
-- **Extensible** - Easy to customize and extend with additional tools and configurations
-- **Version controlled** - All configurations are tracked and versioned through Git
-
 ## Customization
 
 The repository structure follows chezmoi conventions. To customize follow these steps:
